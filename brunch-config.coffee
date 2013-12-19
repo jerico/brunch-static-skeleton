@@ -1,4 +1,7 @@
 exports.config = 
+  modules:
+    wrapper: false
+    definition: false
   files:
     stylesheets:
       joinTo: 'css/app.css'
