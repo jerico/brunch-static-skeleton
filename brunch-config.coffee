@@ -5,7 +5,7 @@ exports.config =
     javascripts:
       joinTo:
         'js/app.js': /^app/
-        'js/vendor.js': /^vendor/
+        'js/vendor.js': /^(vendor|bower_components)/
     templates:
       joinTo:
         'assets/templates.js': /.+\.jade$/
