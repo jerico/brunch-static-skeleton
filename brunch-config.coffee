@@ -5,6 +5,7 @@ exports.config =
   files:
     stylesheets:
       joinTo: 'css/app.css'
+      ignored: /^\_*/
     javascripts:
       joinTo:
         'js/app.js': /^app/
