@@ -1,0 +1,33 @@
+// d = desktop
+// t = tablet
+// m = mobile
+// mp = mobile-portrait
+
+// precedence
+// desktop -> tablet -> mobile
+
+for width in 1..12
+  .g-d-{width}
+    grid-space(8.333333333% * width)
+
+// tablet portrait
+//@media (max-width: 800px)
++below(800px)
+  for width in 1..12
+    .g-t-{width}
+      grid-space(8.333333333% * width)
+
+// mobile landscape
+//@media (max-width: 600px)
++below(600px)
+  for width in 1..12
+    .g-m-{width}
+      grid-space(8.333333333% * width)
+
+// mobile portrait
+//@media (max-width: 320px)
++below(400px)
+  for width in 1..12
+    .g-mp-{width}
+      grid-space(8.333333333% * width)
+
