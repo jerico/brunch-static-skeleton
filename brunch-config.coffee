@@ -14,11 +14,10 @@ exports.config =
       joinTo:
         'assets/templates.js': /.+\.jade$/
   plugins:
-    jade:
-      options:
+    jaded:
+      staticPatterns: /^app(\/|\\)(.+)\.jade$/
+      jade:
         pretty: yes
-    static_jade:
-      extensions: ".jade"
     autoReload:
       enabled: true
       delay: 200

@@ -8,13 +8,12 @@
     "url": ""
   },
   "dependencies": {
-    "javascript-brunch": "~1.7.1",
-    "css-brunch": "~1.7.0",
-    "stylus-brunch": "~1.7.0",
-    "clean-css-brunch": "~1.7.1",
     "auto-reload-brunch": "~1.7.1",
-    "jade-brunch": "~1.7.5",
-    "static-jade-brunch": "~1.7.0",
-    "fluidity": "*"
+    "clean-css-brunch": "~1.7.1",
+    "css-brunch": "~1.7.0",
+    "fluidity": "*",
+    "jaded-brunch": "^1.7.11",
+    "javascript-brunch": "~1.7.1",
+    "stylus-brunch": "~1.7.0"
   }
 }
